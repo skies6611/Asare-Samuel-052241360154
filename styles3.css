@@ -1,0 +1,69 @@
+nav{
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #006e8c;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: -10px;
+    margin-top: 20px;
+    
+    
+}
+
+nav{ 
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 29px;
+    color: #bcff12;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header{
+   margin-top: -30px;
+   text-align: center;
+}
+header img{
+    width: 35px;
+    margin-left: 20px;
+    margin-top: 100px;
+    
+}
+header h1{
+    font-size: 50px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.departments {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.departmentsinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.departmentsinfo p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.departmentsinfo p:hover {
+    background-color: #dcdcdc;
+}
+
+footer  {
+    flex-basis: 100%;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}

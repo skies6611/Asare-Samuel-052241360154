@@ -1,0 +1,76 @@
+nav{
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #00728c;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: -10px;
+    margin-top: 20px;
+    
+    
+}
+nav a{ 
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 29px;
+    color: #a0ff12;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header{
+   margin-top: -30px;
+   text-align: center;
+}
+header img{
+    width: 35px;
+    margin-left: 20px;
+    margin-top: 100px;
+    
+}
+header h1{
+    font-size: 50px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.faculty-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.faculty-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.faculty-info p {
+    background-color: grey;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.faculty-info p:hover {
+    background-color: #ffc712;
+}
+
+.faculty-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer  {
+    flex-basis: 100%;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
